@@ -20,6 +20,8 @@ pip install "unstructured[pdf]"
 
 ## Create database
 
+Add the pdfs (or other file structure) into data folder.
+
 Create the Chroma DB.
 
 ```python
