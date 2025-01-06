@@ -9,7 +9,6 @@ import openai
 from dotenv import load_dotenv
 import os
 import shutil
-import nltk
 
 # Check and download 'punkt_tab' and 'averaged_perceptron_tagger_eng' if not already available
 # try:
