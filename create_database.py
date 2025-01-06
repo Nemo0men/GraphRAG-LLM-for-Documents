@@ -26,7 +26,7 @@ import nltk
 # print(os.getenv("OPENAI_API_KEY"))
 
 # Load environment variables. Assumes that project contains .env file with API keys
-load_dotenv()
+load_dotenv(override=True)
 #---- Set OpenAI API key 
 # Change environment variable name from "OPENAI_API_KEY" to the name given in 
 # your .env file.
